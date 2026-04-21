@@ -3,17 +3,17 @@ local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
 local Window = WindUI:CreateWindow({
-    Folder = "Ringta Scripts",
-    Title = "RINGTA SCRIPTS",
+    Folder = "Dead Rails",
+    Title = "Codex X Community",
     Icon = "star",
-    Author = "RINGTA and BUBLIK6241",
+    Author = "67",
     Theme = "Valentine",
     Size = UDim2.fromOffset(620, 460),
     HasOutline = true,
 })
 
 Window:EditOpenButton({
-    Title = "Open RINGTA SCRIPTS",
+    Title = "Open Hub",
     Icon = "pointer",
     CornerRadius = UDim.new(0, 6),
     StrokeThickness = 2,
@@ -1913,8 +1913,8 @@ task.spawn(function()
     task.wait(delaySeconds)
     pcall(function()
         WindUI:Notify({
-            Title = "Discord Server",
-            Content = "Please join the offical discord server for more scripts! If you're a content creator, make a video on this script and we will post it",
+            Title = "Hub notes",
+            Content = "Hello world",
             Duration = 9,
             Icon = "youtube"
         })
